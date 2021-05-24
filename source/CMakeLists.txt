@@ -21,7 +21,7 @@ add_library(m3 STATIC ${sources})
 
 target_include_directories(m3 PUBLIC .)
 
-target_compile_features(m3 PRIVATE c_std_99)
+# target_compile_features(m3 PRIVATE c_std_99)
 
 if (CMAKE_C_COMPILER_ID MATCHES "MSVC")
     # add MSVC specific flags here
